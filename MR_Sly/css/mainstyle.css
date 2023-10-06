@@ -10,7 +10,7 @@ body{
     width: 100%;
 }
 
-nav{
+.nav{
     background-color: #021a3a;
     padding: 20px 0px;
     border-top: 5px solid #fac54e;
@@ -407,6 +407,16 @@ img, svg {
     flex-basis: 400;
     justify-content: center;
     align-items: center;
+    color: white;
+
+}
+.whyus-content-left div img{
+    max-width: 100px;
+    width: 30%;
+    object-fit: contain;
+    margin: 10px;
+    flex-grow: 1;
+
 
 }
 .whyus-content-right{
@@ -425,11 +435,29 @@ img, svg {
 
 }
 .whyus-content-left div{
-    height: 100px;
+    display: flex;
     width: 90%;
     background-color:#022046;
     margin-top: 20px;
     border-radius: 10px;
+    padding:10px;
+    justify-content: center;
+    
+}
+.whyus-content-left div div{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    flex-direction: column;
+
+}
+.whyus-content-left div div h2{
+    margin:5px;
+    font-size: 22px;
+}
+.whyus-content-left div div p{
+    margin:5px;
+    font-size: 16px;
 }
 
 
