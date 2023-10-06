@@ -212,15 +212,16 @@ img, svg {
 }
 .sec-container-main .home-sec-conright{
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
 .home-sec-conright a{
     background-color: #021a3a;
-    width: 200px;
+    width: 170px;
     height: 65px;
     margin:5px 10px;
     flex-grow: 1;

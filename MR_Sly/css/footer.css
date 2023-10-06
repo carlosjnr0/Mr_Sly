@@ -4,45 +4,7 @@
     --cex-height-mobile: calc(var(--cex-height) - 60px);
    }
    
-   @font-face {
-     font-family: 'E-Topup-Bold';
-   src: url("../fonts/Brown-Bold.eot?cg58le");
-       src: url("../fonts/Brown-Bold.eot?cg58le#iefix") format("embedded-opentype"), url("../fonts/Brown-Bold.otf?cg58le") format("truetype"), url("../fonts/Brown-Regular.woff?cg58le") format("woff"),
-           url("../fonts/Brown-Bold.svg?cg58le#Brown-Bold") format("svg");
-     font-weight: 700;
-     font-style: normal;
-     font-display: swap;
-   }
-   
-   @font-face {
-     font-family: 'E-Topup-Regular';
-   src: url("../fonts/Brown-Regular.eot?cg58le");
-       src: url("../fonts/Brown-Regular.eot?cg58le#iefix") format("embedded-opentype"), url("../fonts/Brown-Regular.otf?cg58le") format("truetype"), url("../fonts/Brown-Regular.woff?cg58le") format("woff"),
-           url("../fonts/Brown-Regular.svg?cg58le#Brown-Regular") format("svg");
-     font-weight: 400;
-     font-style: normal;
-     font-display: swap;
-   }
-   
-   @font-face {
-     font-family: 'E-Topup-Light';
-   src: url("../fonts/Brown-Light.eot?cg58le");
-       src: url("../fonts/Brown-Light.eot?cg58le#iefix") format("embedded-opentype"), url("../fonts/Brown-Light.otf?cg58le") format("truetype"), url("../fonts/Brown-Light.woff?cg58le") format("woff"),
-           url("../fonts/Brown-Light.svg?cg58le#Brown-Light") format("svg");
-     font-weight: 300;
-     font-style: normal;
-     font-display: swap;
-   }
-   
-   @font-face {
-     font-family: 'E-Topup-Thin';
-   src: url("../fonts/Brown-Thin.eot?cg58le");
-       src: url("../fonts/Brown-Thin.eot?cg58le#iefix") format("embedded-opentype"), url("../fonts/Brown-Thin.otf?cg58le") format("truetype"), url("../fonts/Brown-Thin.woff?cg58le") format("woff"),
-           url("../fonts/Brown-Thin.svg?cg58le#Brown-Thin") format("svg");
-     font-weight: 100;
-     font-style: normal;
-     font-display: swap;
-   }
+
    
    .modal-close,.button{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
    .navbar-link:not(.is-arrowless)::after{border:3px solid transparent;border-radius:2px;border-right:0;border-top:0;content:" ";display:block;height:0.625em;margin-top:-0.4375em;pointer-events:none;position:absolute;top:50%;transform:rotate(-45deg);transform-origin:center;width:0.625em;}
@@ -4809,7 +4771,7 @@
    }
    
    body.page-template-agent-panel .xoo-wsc-cart-active dl.variation dd.variation-BeneficialPhoneNumbers table.gpnf-nested-entries tr td.gpnf-field {
-       
+    background-color: transparent;
    }
    
    body.page-template-agent-panel .xoo-wsc-cart-active .gpnf-nested-entries tr, .xoo-wsc-cart-active .gpnf-nested-entries tr {
