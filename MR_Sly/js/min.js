@@ -12,6 +12,14 @@ let hh4 = document.getElementById('hcn4');
 let hh5 = document.getElementById('hcn5');
 let hh6 = document.getElementById('hcn6');
 let conheader = document.getElementById('cnhid')
+let hdd1 = document.getElementById('hd1')
+let hdd2 = document.getElementById('hd2')
+let hdd3 = document.getElementById('hd3')
+let hdd4 = document.getElementById('hd4')
+let sp1 = document.getElementById('l1')
+let sp2 = document.getElementById('l2')
+let sp3 = document.getElementById('l3')
+let sp4 = document.getElementById('l4')
 
 function cd1(){
     content.classList.toggle('factive')
@@ -45,4 +53,52 @@ function cd6(){
 }
 function cls(){
     content.classList.toggle('factive')
+}
+
+
+
+/*********************************************/
+function hddd1(){
+    hdd1.classList.toggle("hdactive")
+    hdd2.classList.remove("hdactive")
+    hdd3.classList.remove("hdactive")
+    hdd4.classList.remove("hdactive")
+
+    sp1.classList.toggle("rt")
+    sp2.classList.remove("rt")
+    sp3.classList.remove("rt")
+    sp4.classList.remove("rt")
+}
+function hddd2(){
+    hdd1.classList.remove("hdactive")
+    hdd2.classList.toggle("hdactive")
+    hdd3.classList.remove("hdactive")
+    hdd4.classList.remove("hdactive")
+
+    sp1.classList.remove("rt")
+    sp2.classList.toggle("rt")
+    sp3.classList.remove("rt")
+    sp4.classList.remove("rt")
+}
+function hddd3(){
+    hdd1.classList.remove("hdactive")
+    hdd2.classList.remove("hdactive")
+    hdd3.classList.toggle("hdactive")
+    hdd4.classList.remove("hdactive")
+
+    sp1.classList.remove("rt")
+    sp2.classList.remove("rt")
+    sp3.classList.toggle("rt")
+    sp4.classList.remove("rt")
+}
+function hddd4(){
+    hdd1.classList.remove("hdactive")
+    hdd2.classList.remove("hdactive")
+    hdd3.classList.remove("hdactive")
+    hdd4.classList.toggle("hdactive")
+
+    sp1.classList.remove("rt")
+    sp2.classList.remove("rt")
+    sp3.classList.remove("rt")
+    sp4.classList.toggle("rt")
 }
