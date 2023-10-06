@@ -218,14 +218,26 @@ img, svg {
     justify-content: center;
     align-items: center;
 }
-.home-sec-conright div{
+.home-sec-conright a{
     background-color: #021a3a;
-    width: 180px;
-    height: 80px;
+    width: 200px;
+    height: 65px;
     margin:5px 10px;
     flex-grow: 1;
     flex-basis: 200;
-    border-radius: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all ease-in-out 0.2s;
+    padding:0 30px;
+}
+.home-sec-conright a:hover{
+    color: #fac54e;
 }
 
 
