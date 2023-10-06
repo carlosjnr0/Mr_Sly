@@ -39,7 +39,6 @@ nav{
     display: flex;
     align-items: center;
     
-    
 }
 .navigation a{
     color: white;
@@ -470,13 +469,12 @@ img, svg {
 }
 .asked-content-left h3{
     font-size: 2em;
-    inline-size: 500px;
     margin-bottom: 20px;
+    word-wrap: break-word;
     
 }
 .asked-content-left p{
     font-size: 1em;
-    inline-size: 500px;
     margin-bottom: 40px;
     
 }
