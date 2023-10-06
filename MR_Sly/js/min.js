@@ -20,6 +20,7 @@ let sp1 = document.getElementById('l1')
 let sp2 = document.getElementById('l2')
 let sp3 = document.getElementById('l3')
 let sp4 = document.getElementById('l4')
+let nvv = document.getElementById('navv')
 
 function cd1(){
     content.classList.toggle('factive')
@@ -101,4 +102,11 @@ function hddd4(){
     sp2.classList.remove("rt")
     sp3.classList.remove("rt")
     sp4.classList.toggle("rt")
+}
+
+
+
+
+function navvv(){
+    nvv.classList.toggle('mnvact')
 }

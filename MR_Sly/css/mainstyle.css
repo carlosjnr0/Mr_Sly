@@ -19,6 +19,9 @@ body{
     position: fixed;
     width: 100%;
 }
+.mdianav{
+    
+}
 .Pagelogo img{
     max-width: 180px;
 }
@@ -29,6 +32,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    padding: 0 10px;
     
     justify-content: space-between;
     align-items: center;
@@ -663,6 +667,14 @@ img, svg {
     font-size: 32px;
 }
 
+.navigation2 img{
+    width: 40px;
+    filter:invert(1);
+}
+.navigation2{
+    display: none;
+    
+}
 
 .footer{
     background-color:#171d2a;
@@ -671,6 +683,54 @@ img, svg {
 }
 
 @media screen and (max-width:819px) {
+    .navigation2{
+        display: block;
+    }
+    .mdianav{
+        position: fixed;
+        height: 100vh;
+        background-color: wheat;
+        z-index: 998;
+        width: 100%;
+        justify-content: center;
+        display: none;
+    }
+    .mnvact{
+        display: block;
+    }
+    .mdianav .con{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column ;
+        
+    }
+    .mdianav .con a{
+        color: #022046;
+        text-decoration: none;
+        padding: 10px;
+        border-bottom: solid 1px grey;
+        font-size: 20px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    .mdianav .con2 a{
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fac54e;
+        color: #021a3a;
+        text-decoration: none;
+        padding: 10px 100px;
+        border-radius: 4px;
+    }
+    .mdianav .con2{
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
     .sec-container-main{
         flex-wrap: wrap;
     }
@@ -689,9 +749,35 @@ img, svg {
     flex-wrap: wrap;
     }
     
+    .navigation{
+        display: none;
+    }
 }
 @media screen and (max-width:770px) {
     .sc{
         flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:550px) {
+    .fmm{
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .fmm div{
+        margin-top: 0px;
+    }
+    .fmm div input{
+        margin: 0px;
+
+    }
+    .formcontent form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:10px 10px 80px 10px;
+        
+    }
+    .popup-container h1{
+        margin: 0;
     }
 }
