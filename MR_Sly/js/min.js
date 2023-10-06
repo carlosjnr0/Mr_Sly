@@ -10,7 +10,26 @@ function cd1(){
     content.classList.toggle('factive')
     content.focus()
 }
-content.addEventListener('blur', () => {
-    content.style.display = 'none';
-  });
-    
+function cd2(){
+    content.classList.toggle('factive')
+    content.focus()
+}
+function cd3(){
+    content.classList.toggle('factive')
+    content.focus()
+}
+function cd4(){
+    content.classList.toggle('factive')
+    content.focus()
+}
+function cd5(){
+    content.classList.toggle('factive')
+    content.focus()
+}
+function cd6(){
+    content.classList.toggle('factive')
+    content.focus()
+}
+function cls(){
+    content.classList.toggle('factive')
+}

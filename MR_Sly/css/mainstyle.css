@@ -281,6 +281,7 @@ img, svg {
     width: 350px;
     border-radius: 10px;
     overflow: hidden;
+    cursor: pointer;
 }
 .pllans .p1 .p1-lbel{
     
@@ -514,11 +515,15 @@ img, svg {
     transform: translateY(-50%);
     box-shadow: 1px 1px 1px 1000vh rgba(0, 0, 0, 0.459);
     z-index: 998;
+    transition: all ease-in-out 0.2s;
+    opacity: 0;
     display: none;
 }
 
 .factive{
-    display: block 
+    transition: all ease-in-out 0.2s;
+    display: block;
+    opacity: 1;
 }
 
 
