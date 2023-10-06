@@ -266,6 +266,7 @@ img, svg {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    position: relative;
 }
 .pllans .p1{
     background-color: #1b3c71;
@@ -502,6 +503,25 @@ img, svg {
 }
 
 
+.popup-container{
+    max-width: 1000px;
+    width: 100%;
+    background-color: #1b3c71;
+    height: 400px;
+    position: absolute;
+    border-radius: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 1px 1px 1px 1000vh rgba(0, 0, 0, 0.459);
+    z-index: 998;
+    display: none;
+}
+
+.factive{
+    display: block 
+}
+
+
 .footer{
     background-color:#171d2a;
     width: 100%;
@@ -517,6 +537,13 @@ img, svg {
         margin-left: auto;
         margin-right: auto;
     }
+    .asked-content-right{
+        margin-top: 40px;
+    }
+    .asked-content-left{
+        padding: 20px;
+    }
+    
 }
 @media screen and (max-width:770px) {
     .sc{
