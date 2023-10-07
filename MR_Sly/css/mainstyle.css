@@ -648,9 +648,13 @@ img, svg {
 .internet-sec-container .sec{
     max-width: 1280px;
     width: 100%;
-    background-color: red;
+    padding: 20px;
+    background-color: white;
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .formcontent form button{
@@ -709,6 +713,47 @@ img, svg {
 .more-btn {
     margin-top: 60px;
 }
+
+
+.slidder-container{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px lightgray solid;
+}
+.slidder-container .slidder-input input{
+    height: 4rem;
+    border: none;
+    outline: none;
+    border: solid 1px gray;
+}
+.slidder-container .ruler{
+    height: 1px;
+    width: 100%;
+    background-color: lightgray;
+}
+.main-sd-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main-sd-container .range-count{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.sec-right-container{
+    height: 200px;
+    width: 100%;
+    max-width: 500px;
+    border-left: solid 1px lightgray;
+}
+
 
 
 @media screen and (max-width:819px) {
