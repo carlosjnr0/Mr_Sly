@@ -748,10 +748,24 @@ img, svg {
     margin-top: 10px;
 }
 .sec-right-container{
-    height: 200px;
     width: 100%;
     max-width: 500px;
     border-left: solid 1px lightgray;
+}
+
+.sec-right-container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.sec-right-container a{
+    color: #022046;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: solid 1px lightgray;
+    margin-left: 14px;
+    font-weight: 500;
 }
 
 
