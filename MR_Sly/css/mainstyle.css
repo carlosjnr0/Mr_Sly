@@ -1013,6 +1013,20 @@ img, svg {
         flex-wrap: wrap;
     }
 }
+@media screen and (max-width:1070px) {
+    .login-main{
+        flex-wrap: wrap;
+    }
+    .login-left{
+        width: 100%;
+    }
+    .login-right .lg-right-header{
+        color: #021a3a;
+        margin: 20px 0 0 0;
+        text-align: center;
+        font-size: 18px;
+    }
+}
 @media screen and (max-width:550px) {
     .fmm{
         flex-wrap: wrap;
