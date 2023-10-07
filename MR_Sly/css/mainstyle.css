@@ -874,9 +874,14 @@ img, svg {
     width: 96%;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
 }
-.btn button{
+.btn a{
     width: 100%;
     padding: 12px;
     background-color: #5d6e8c;
@@ -885,7 +890,8 @@ img, svg {
     outline: none;
     color:#fff;
     font-size: 18px;
-    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 }
 
 .login-right{
