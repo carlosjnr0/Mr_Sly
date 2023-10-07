@@ -622,6 +622,7 @@ img, svg {
 
 
 .formcontent form input{
+    outline: none;
     margin-top: 10px;
     background-color: #022046;
     border: none;
@@ -629,10 +630,26 @@ img, svg {
     border: solid 1px rgb(100, 100, 100);
     width: 100%;
     padding: 8px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     border-radius: 3px;
     margin-bottom: 30px;
+    font-size: 18px;
+}
+.formcontent form input:focus{
+    background-color: #022046;
+    border: solid 1px rgb(100, 100, 100);
+    
+}
+.internet-sec-container{
+    width: 100%;
+    height: 200px;
+}
+.internet-sec-container .sec{
+    max-width: 1280px;
+    width: 100%;
+    height: 200px;
+    color: red;
 }
 
 .formcontent form button{
