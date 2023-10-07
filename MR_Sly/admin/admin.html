@@ -8,12 +8,44 @@
 </head>
 <body>
     <div class="agent-main">
+        <div class="popup-con" id="ppcon1">
+            <div class="closeX">
+                <div class="clsb" onclick="clscus()" style="cursor: pointer;">X</div>
+            </div>
+            <center><h2 style="color: white;">Add New Administrator</h2></center>
+
+            <form action="#">
+                <div class="inputt">
+                    <input type="text" name="Firstname" id="" placeholder="Firstname">
+                </div>
+                <div class="inputt">
+                    <input type="text" name="Lastname" id="" placeholder="Lastname">
+                </div>
+                <div class="inputt">
+                    <input type="email" name="Email" id="" placeholder="Email">
+                </div>
+                <div class="inputt">
+                    <input type="text" name="address" id="" placeholder="Address">
+                </div>
+                <div class="inputt">
+                    <input type="text" name="Phone" id="" placeholder="Phone">
+                </div>
+                <div class="inputt">
+                    <input type="password" name="Password" id="" placeholder="Password">
+                </div>
+                <div class="inputt">
+                    <input type="submit" name="add_admin" id="" value="Add Administrator">
+                </div>
+            </form>
+            
+        </div>
         <div class="profile">
         <div class="pwrapper">
             <h1>Admin Profile</h1>
             <p>Username: <span id="username">Agent-Sly</span></p>
             <p>Address: <span id="address">123 Main St</span></p>
             <p>Phone: <span id="phone">+233-24410-4567</span></p>
+            <div class="Add"><a href="#" onclick="addcus()">Add New Admin</a></div>
         </div>
 
         
@@ -68,6 +100,6 @@
 
     
     </div>
-    
+    <script src="../js/min.js"></script>
 </body>
 </html>

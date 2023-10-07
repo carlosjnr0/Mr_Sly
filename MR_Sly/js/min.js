@@ -41,6 +41,8 @@ let sp2 = document.getElementById('l2')
 let sp3 = document.getElementById('l3')
 let sp4 = document.getElementById('l4')
 let nvv = document.getElementById('navv')
+let addcontainer = document.getElementById('ppcon1');
+
 
 function cd1(){
     content.classList.toggle('factive')
@@ -179,4 +181,11 @@ function hddd4(){
 
 function navvv(){
     nvv.classList.toggle('mnvact')
+}
+
+function addcus(){
+    addcontainer.classList.toggle('oppen');
+}
+function clscus(){
+    addcontainer.classList.toggle('oppen');
 }

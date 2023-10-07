@@ -8,13 +8,41 @@
 </head>
 <body>
     <div class="agent-main">
+        <div class="popup-con" id="ppcon1">
+            <div class="closeX">
+                <div class="clsb" onclick="clscus()" style="cursor: pointer;">X</div>
+            </div>
+            <center><h2 style="color: white;">Add Customer</h2></center>
+
+            <form action="#">
+                <div class="inputt">
+                    <input type="text" name="Username" id="" placeholder="Username">
+                </div>
+                <div class="inputt">
+                    <input type="text" name="Phone" id="" placeholder="Phone">
+                </div>
+                <div class="inputt">
+                    <input type="email" name="Email" id="" placeholder="Email">
+                </div>
+                <div class="inputt">
+                    <div><label style="color: white;" for="dated added">Date Added</label></div>
+                    <input type="date" name="Date" id="" placeholder="Date">
+                </div>
+                <div class="inputt">
+                    <input type="submit" name="add_customer" id="" value="Add customer">
+                </div>
+            </form>
+            
+        </div>
+
+
         <div class="profile">
         <div class="pwrapper">
             <h1>Admin Profile</h1>
             <p>Username: <span id="username">Agent-Sly</span></p>
             <p>Address: <span id="address">123 Main St</span></p>
             <p>Phone: <span id="phone">+233-24410-4567</span></p>
-            <div class="Add"><a href="#">Add Customer</a></div>
+            <div class="Add"><a href="#" onclick="addcus()">Add Customer</a></div>
         </div>
 
         
@@ -22,7 +50,7 @@
     </div>
     <div class="ttables">
         <div class="nav">
-            <a href="admin.html">Sold</a>
+            <a href="./admin.html">Sold</a>
             <a href="#">Customer</a>
             <a href="./admin-agent.html">Agent</a>
         </div>
@@ -69,6 +97,6 @@
 
     
     </div>
-    
+    <script src="../js/min.js"></script>
 </body>
 </html>
