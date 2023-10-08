@@ -3,8 +3,12 @@ body{
 	margin:0;
 	padding:20px;
 	font-family: sans-serif;
+    box-sizing: border-box;
     
 }
+input {
+    font-size: 20px !important; 
+    }
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -181,13 +185,13 @@ body{
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    top: 20%;
+    top: 5%;
     z-index: 999;
     border-radius: 20px;
     background-color: #021a3a;
-    box-shadow: 1px 1px 1px 1000vh rgba(0, 0, 0, 0.705);
+    box-shadow: 1px 1px 1px 1000vh rgba(0, 0, 0, 0.603);
     display: none;
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
 }
 .closeX{
     position: relative;
@@ -242,6 +246,7 @@ form .inputt input[type=submit]{
     border:none;
     margin-top: 20px;
     transition: all ease-in-out 0.3s;
+    height: 50px;
 }
 form .inputt input[type=submit]:hover{
     background-color: #204b85;

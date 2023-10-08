@@ -683,7 +683,9 @@ img, svg {
     font-size: 25px;
 
 }
-
+input {
+    font-size: 20px !important; 
+    }
 #cnhid{
     margin-top: 50px;
     font-size: 32px;

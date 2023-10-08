@@ -24,6 +24,7 @@
     background-color: #021a3a;
     padding-bottom: 10vh;
     padding: 70px 20px;
+    
 }
 .closeX{
     position: relative;
@@ -78,6 +79,7 @@ form .inputt input[type=submit]{
     border:none;
     margin-top: 20px;
     transition: all ease-in-out 0.3s;
+    height: 50px;
 }
 form .inputt input[type=submit]:hover{
     background-color: #204b85;
@@ -85,3 +87,6 @@ form .inputt input[type=submit]:hover{
 .oppen{
     display: block;
 }
+input {
+    font-size: 20px !important; 
+    }
