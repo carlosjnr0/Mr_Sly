@@ -585,14 +585,17 @@ img, svg {
     box-shadow: 1px 1px 1px 1000vh rgba(0, 0, 0, 0.459);
     z-index: 1000;
     transition: all ease-in-out 0.2s;
+    visibility: hidden;
     opacity: 0;
-    display: none;
+    
 }
 
 .factive{
     transition: all ease-in-out 0.2s;
-    display: block;
+    visibility: visible;
     opacity: 1;
+    transition: opacity .4s;
+    
 }
 
 .formcontent form{
@@ -963,10 +966,13 @@ input {
         z-index: 998;
         width: 100%;
         justify-content: center;
-        display: none;
+        opacity: 0;
+        visibility: hidden;
     }
     .mnvact{
-        display: block;
+        visibility: visible;
+        opacity: 1;
+        transition: opacity .5s;
     }
     .mdianav .con{
         margin-top: 100px;
